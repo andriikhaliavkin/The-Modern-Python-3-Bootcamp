@@ -1,1 +1,7 @@
 print("Hello world!")
+print(12)
+print(1.9)
+print(type(1))
+print(type(2.0))
+print(1-4)
+print(type(3/4))
