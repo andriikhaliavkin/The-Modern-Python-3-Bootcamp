@@ -5,3 +5,6 @@ print(type(1))
 print(type(2.0))
 print(1-4)
 print(type(3/4))
+print(2**3)
+print(5%2)
+print(9//3) #int devision
