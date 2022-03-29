@@ -17,3 +17,7 @@ dict_example = {"a": 2, "b": 4}
 None #like null in another PLs
 name = None
 print(name)
+
+message = "bla bld\n"
+mountains = "/\\/\\/\\"
+print(mountains)
