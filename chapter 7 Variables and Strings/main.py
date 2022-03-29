@@ -13,3 +13,7 @@ print(r)
 
 list_example = [1, 2, 4]
 dict_example = {"a": 2, "b": 4}
+
+None #like null in another PLs
+name = None
+print(name)
