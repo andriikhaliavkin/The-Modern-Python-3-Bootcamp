@@ -31,10 +31,16 @@
 # print(char)
 
 
-decimal = 12.343
-integer = int(decimal)
-print(integer)
+# decimal = 12.343
+# integer = int(decimal)
+# print(integer)
 
-my_list = [1, 2, 3]
-my_list_as_a_string = str(my_list)
-print(my_list_as_a_string)
+# my_list = [1, 2, 3]
+# my_list_as_a_string = str(my_list)
+# print(my_list_as_a_string)
+
+
+print("How many kms did U cycle today?")
+kms = float(input())
+miles = kms/1.60934
+print(f"OK, You said {round(miles,2)} miles")
