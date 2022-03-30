@@ -22,7 +22,10 @@
 # mountains = "/\\/\\/\\"
 # print(mountains)
 
-name = "Andrii"
-last_name = "Khaliavkin"
-print(name + " " + last_name)
-print(f"{name} {last_name}")
+# name = "Andrii"
+# last_name = "Khaliavkin"
+# print(name + " " + last_name)
+# print(f"{name} {last_name}")
+
+char = "qwertt"[0]
+print(char)
