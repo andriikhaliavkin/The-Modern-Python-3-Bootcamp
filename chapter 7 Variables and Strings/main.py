@@ -27,5 +27,14 @@
 # print(name + " " + last_name)
 # print(f"{name} {last_name}")
 
-char = "qwertt"[0]
-print(char)
+# char = "qwertt"[0]
+# print(char)
+
+
+decimal = 12.343
+integer = int(decimal)
+print(integer)
+
+my_list = [1, 2, 3]
+my_list_as_a_string = str(my_list)
+print(my_list_as_a_string)
