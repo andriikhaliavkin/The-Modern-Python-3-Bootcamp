@@ -14,12 +14,32 @@
   # x is 1
   # x is 0
 
-if 0:
-  print("hrllo")
-else:
-  print("test")
+# if 0:
+#   print("hrllo")
+# else:
+#   print("test")
   
-if 1:
-  print("test2")
-else:
-  print("tes3")
+# if 1:
+#   print("test2")
+# else:
+#   print("tes3")
+num = 5
+
+# if num > 1 and num < 10:
+#   print("something")
+# if num > 1 or num < 2:
+#   print("somthing")
+
+from random import choice
+food = choice(['apple','grape', 'bacon', 'steak', 'worm', 'dirt'])
+# NO TOUCHING =============================================
+
+
+# YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+if food == 'apple' or food == 'grape':
+    print('fruit')
+elif food == 'bacon' or food == 'steak':
+    print('meat')
+elif food == 'dirt' or food == 'worm':
+    print('yuck')
+print(food)
