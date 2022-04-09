@@ -48,26 +48,49 @@ num = 5
 # else:
 #   print('else')
 # NO TOUCHING==NO TOUCHING==NO TOUCHING==NO TOUCHING #| \
-from random import randint                           #|  \
-x = randint(-100, 100)                               #|   \
-while x == 0:  # make sure x isn't zero              #|    \
-    x = randint(-100, 100)                           #|     NO TOUCHING!!!!!! (please)         
-y = randint(-100, 100)                               #|    /
-while y == 0:  # make sure y isn't zero              #|   /
-    y = randint(-100, 100)                           #|  /
-# NO TOUCHING==NO TOUCHING==NO TOUCHING==NO TOUCHING #| /
+# from random import randint                           #|  \
+# x = randint(-100, 100)                               #|   \
+# while x == 0:  # make sure x isn't zero              #|    \
+#     x = randint(-100, 100)                           #|     NO TOUCHING!!!!!! (please)         
+# y = randint(-100, 100)                               #|    /
+# while y == 0:  # make sure y isn't zero              #|   /
+#     y = randint(-100, 100)                           #|  /
+# # NO TOUCHING==NO TOUCHING==NO TOUCHING==NO TOUCHING #| /
 
 
 
-# Don't change the print statements so the tests can pass!
+# # Don't change the print statements so the tests can pass!
+# # YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+# if x > 0 and y > 0:
+#     print("both positive")
+# elif x < 0 and y < 0:    
+#     print("both negative")
+# elif x > 0 and y < 0:     
+#     print("x is positive and y is negative")
+# else:
+#     print("y is positive and x is negative")
+
+# # YOUR CODE GOES HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# NO TOUCHING ======================================
+
+from random import choice, randint
+
+# randomly assigns values to these four variables
+actually_sick = choice([True, False])
+kinda_sick = choice([True, False])
+hate_your_job = choice([True, False])
+sick_days = randint(0, 10)
+
+# NO TOUCHING ======================================
+
+
+calling_in_sick = None  # set this to True or False with Boolean Logic and Conditionals!
+
 # YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-if x > 0 and y > 0:
-    print("both positive")
-elif x < 0 and y < 0:    
-    print("both negative")
-elif x > 0 and y < 0:     
-    print("x is positive and y is negative")
+if (actually_sick == True and sick_days > 0) or (kinda_sick == True and hate_your_job == True and sick_days > 0):
+    calling_in_sick = True
 else:
-    print("y is positive and x is negative")
+    calling_in_sick = False
 
-# YOUR CODE GOES HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# YOUR CODE GOES HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+print(calling_in_sick)
