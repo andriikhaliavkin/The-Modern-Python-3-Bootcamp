@@ -1,5 +1,5 @@
 # print('init')
-from multiprocessing import RLock
+# from multiprocessing import RLock
 import random
 ai_choice = random.choice(['rock', 'paper', 'scissors'])
 human_choice = input('Your choice?: ').lower()
