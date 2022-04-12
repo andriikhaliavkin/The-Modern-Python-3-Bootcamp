@@ -25,10 +25,16 @@
 # x = int(input("how many times do i have to tell you?: "))
 # for i in range(x):
 #   print("clean Your room")
-for i in range(1,20):
-  if i == 4 or i == 13:
-    print("Unlucky")
-  elif i%2 == 0:
-    print("even")
-  else:
-    print("odd")
+# for i in range(1,20):
+#   if i == 4 or i == 13:
+#     print("Unlucky")
+#   elif i%2 == 0:
+#     print("even")
+#   else:
+#     print("odd")
+
+msg = input("what's the password?: ")
+while msg != "bananas":
+  print("wrong")
+  msg = input("what's the password?: ")
+print("correct!")
