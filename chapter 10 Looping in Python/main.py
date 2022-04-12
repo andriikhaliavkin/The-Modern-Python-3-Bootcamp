@@ -20,7 +20,9 @@
 #   x+=i
 # print(x)
 
+# x = int(input("how many times do i have to tell you?: "))
+# print("clean your room \n"*x)
 x = int(input("how many times do i have to tell you?: "))
-print("clean your room \n"*x)
-
+for i in range(x):
+  print("clean Your room")
   
