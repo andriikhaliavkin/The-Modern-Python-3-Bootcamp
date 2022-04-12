@@ -13,9 +13,14 @@
 
 # Add up all odd numbers between 10 and 20
 # Store the result in x:
-x = 0
-for i in range(11,21,2):
-  x+=i
-print(x)
+# x = 0
 
-# YOUR CODE GOES HERE:
+# # YOUR CODE GOES HERE:
+# for i in range(11,21,2):
+#   x+=i
+# print(x)
+
+x = int(input("how many times do i have to tell you?: "))
+print("clean your room \n"*x)
+
+  
