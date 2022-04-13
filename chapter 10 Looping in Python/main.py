@@ -33,8 +33,13 @@
 #   else:
 #     print("odd")
 
-msg = input("what's the password?: ")
-while msg != "bananas":
-  print("wrong")
-  msg = input("what's the password?: ")
-print("correct!")
+# msg = input("what's the password?: ")
+# while msg != "bananas":
+#   print("wrong")
+#   msg = input("what's the password?: ")
+# print("correct!")
+
+x = 1
+while x < 11:
+  print('\u0001'*x)
+  x += 1
