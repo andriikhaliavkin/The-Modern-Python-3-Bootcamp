@@ -40,7 +40,16 @@
 # print(my_list_as_a_string)
 
 
-print("How many kms did U cycle today?")
-kms = float(input())
-miles = kms/1.60934
-print(f"OK, You said {round(miles,2)} miles")
+# print("How many kms did U cycle today?")
+# kms = float(input())
+# miles = kms/1.60934
+# print(f"OK, You said {round(miles,2)} miles")
+
+from random import randint  # use randint(a, b) to generate a random number between a and b
+
+number = 0 # store random number in here, each time through
+i = 0  # i should be incremented by one each iteration
+while number != 5:
+    number = randint(1,10)
+    i += 1
+print(i)
